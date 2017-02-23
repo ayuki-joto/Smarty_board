@@ -34,7 +34,7 @@
 {if isset($post_list)}
     {foreach from=$post_list item=row}
         <form action="/content.php" method="post">
-            <p><a href="" onclick="document.forms[1].submit(); return false;">{$row.id}</a> {$row.contents} {$row.user_id}</p>
+            <p><a href="" onclick="document.forms[{$row.id}].submit(); return false;">{$row.id}</a> {$row.contents} {$row.user_id}</p>
             <input type='hidden' name="content_number" value={$row.id}>
         </form>
     {/foreach}
