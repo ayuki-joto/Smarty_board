@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <script src="/js/jquery-1.8.2.min.js"></script>
-    <script src="/js/jquery.validationEngine.js"></script>
-    <script src="/js/languages/jquery.validationEngine-ja.js"></script>
-    <link rel="stylesheet" href="/css/validationEngine.jquery.css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jquery.validationEngine.js"></script>
+    <script src="../js/languages/jquery.validationEngine-ja.js"></script>
+    <link rel="stylesheet" href="../css/validationEngine.jquery.css">
     <title>新規登録</title>
     <script>
         {literal}
@@ -18,7 +18,7 @@
 <body style="text-align: center">
 
 <h1>新規登録画面</h1>
-<form id="form" action="/signup.php" method="POST">
+<form id="form" action="../signup.php" method="POST">
     <fieldset>
         <h2>新規登録フォーム</h2>
         <div>{$message}</div>
@@ -36,7 +36,7 @@
     </fieldset>
 </form>
 <br>
-<a href="/index.php">戻る</a>
+<a href="../index.php">戻る</a>
 
 </body>
 </html>

@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <script src="/js/jquery-1.8.2.min.js"></script>
-    <script src="/js/jquery.validationEngine.js"></script>
-    <script src="/js/languages/jquery.validationEngine-ja.js"></script>
-    <link rel="stylesheet" href="/css/validationEngine.jquery.css">
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jquery.validationEngine.js"></script>
+    <script src="../js/languages/jquery.validationEngine-ja.js"></script>
+    <link rel="stylesheet" href="../css/validationEngine.jquery.css">
     <title>ログイン</title>
     <script>
         {literal}
@@ -18,7 +18,7 @@
 <body style="text-align: center">
 
 <h1>ようこそ！掲示板へ！</h1>
-<form id="form" action="/login.php" method="POST">
+<form id="form" action="../login.php" method="POST">
     <fieldset>
         <h2>ログインフォーム</h2>
         <div>{$errors}</div>
@@ -32,6 +32,6 @@
     </fieldset>
 </form>
 <br>
-<a href="/signup.php">新規登録</a>
+<a href="../signup.php">新規登録</a>
 </body>
 </html>

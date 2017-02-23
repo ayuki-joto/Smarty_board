@@ -4,7 +4,6 @@ require_once ('dbmanage.php');
 
 
 // セッション開始
-session_start();
 
 $signUpMessage = "";
 $errorMessage = "";
