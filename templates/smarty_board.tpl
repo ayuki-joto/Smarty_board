@@ -5,7 +5,7 @@
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/jquery.validationEngine.js"></script>
     <script src="js/languages/jquery.validationEngine-ja.js"></script>
-    <link rel="stylesheet" href="../css/validationEngine.jquery.css">
+    <link rel="stylesheet" href="css/validationEngine.jquery.css">
     <title>掲示板</title>
     <script>
         {literal}
